@@ -343,8 +343,8 @@ def setup_dashboard():
     
     # Frame trạng thái 
     status_frame = ttk.LabelFrame(
-        constants.dashboard_frame, text='Trạng thái kho lưu trữ',
-        font=('Times New Roman', 10)
+        constants.dashboard_frame,
+        text='Trạng thái kho lưu trữ'
     )
     status_frame.pack(fill=tk.BOTH, expand=False, padx=10, pady=10)
     
@@ -394,8 +394,7 @@ def setup_dashboard():
     # Hiển thị danh sách dự án 
     project_frame = ttk.LabelFrame(
         constants.dashboard_frame,
-        text='Danh sách dự án', 
-        font=('Times New Roman', 10)
+        text='Danh sách dự án'
     )
     project_frame.pack(
         fill=tk.BOTH,
